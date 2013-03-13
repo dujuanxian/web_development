@@ -4,6 +4,13 @@
     <title>Web Development</title>
 </head>
 <body>
+    <h3>
+        Feedback, please!
+    </h3>
 
+    <form action="feedback.jsp">
+        <input type="text" name="feedback" value="${feedback.value}">
+        <input type="submit" name="button" value="Submit">
+    </form>
 </body>
 </html>
