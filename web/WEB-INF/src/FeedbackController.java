@@ -7,6 +7,10 @@ import java.io.IOException;
 public class FeedbackController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         if (!request.getParameter("feedback").toString().isEmpty()) {
+            Feedback feedback = new Feedback();
+            request.getSession().setAttribute("feedback", feedback);
+            feedback.setValue(request.getParameter("feedback"));
+
             RequestDispatcher dispatcher = request.getRequestDispatcher("feedback.jsp");
             dispatcher.forward(request, response);
         } else {

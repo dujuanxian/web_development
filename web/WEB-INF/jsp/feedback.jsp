@@ -8,7 +8,7 @@
 
         <h3>Thanks for your feedback:</h3>
 
-        <p>${param.feedback}</p>
+        <p>${feedback.value}</p>
 
     </body>
 </html>
