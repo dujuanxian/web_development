@@ -8,7 +8,7 @@
         Feedback, please!
     </h3>
 
-    <form action="feedback.jsp">
+    <form action="FeedbackController">
         <input type="text" name="feedback" value="${feedback.value}">
         <input type="submit" name="button" value="Submit">
     </form>
