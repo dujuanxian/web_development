@@ -1,9 +1,42 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Front-end Development</title>
+    <title>前端开发</title>
 </head>
 <body>
-
+    <h1>前端开发101</h1>
+    <p>
+        前端开发使用的语言包括有HTML、CSS以及JS代码
+    </p>
+    <h2>HTML</h2>
+    <ul>
+        <li>
+            HTML简介
+        </li>
+        <li>
+            HTML的发展史
+        </li>
+        <li>
+            HTML的两种元素
+        </li>
+    </ul>
+    <h2>CSS</h2>
+    <ul>
+        <li>
+            CSS简介
+        </li>
+        <li>
+            常用CSS的属性
+        </li>
+    </ul>
+    <h2>参考</h2>
+    <ul>
+        <li>
+            <a href="www.w3school.org">w3school</a>
+        </li>
+        <li>
+            <a href="try.jquery.org">jquery</a>
+        </li>
+    </ul>
 </body>
 </html>
