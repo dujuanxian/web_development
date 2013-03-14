@@ -6,6 +6,7 @@
         body {
             background-color: #eaeae1;
             font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', sans-serif;
+            padding: 30px 0;
         }
 
         h1 {
@@ -20,23 +21,37 @@
         p, ul {
             color: #3e3e29;
         }
-        div {
+        .header {
+            padding: 0 30px;
+            text-align: center;
+        }
+        .course {
             background-color: white;
             width: 400px;
             padding: 20px;
             margin: 10px;
             border-radius: 5px;
         }
+        .reference {
+          text-align: center;
+        }
+        .reference ul {
+            list-style: none;
+            padding: 0;
+        }
+
     </style>
 </head>
 <body>
-    
-    <h1>前端开发101</h1>
-    <p>
-        前端开发使用的语言包括有<em>HTML</em>、<em>CSS</em>以及<em>JS</em>代码
-    </p>
+    <div class="header">
+        <h1>前端开发101</h1>
 
-    <div>
+        <p>
+            前端开发使用的语言包括有<em>HTML</em>、<em>CSS</em>以及<em>JS</em>代码
+        </p>
+    </div>
+
+    <div class="course">
         <h2>HTML</h2>
         <ul>
             <li>
@@ -50,7 +65,7 @@
             </li>
         </ul>
     </div>
-    <div>
+    <div class="course">
         <h2>CSS</h2>
         <ul>
             <li>
@@ -61,7 +76,7 @@
             </li>
         </ul>
     </div>
-    <div>
+    <div class="reference">
         <h2>参考</h2>
         <ul>
             <li>
