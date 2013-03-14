@@ -31,17 +31,19 @@
         }
         .course {
             background-color: white;
-            width: 400px;
+            width: 43%;
             padding: 20px;
             margin: 10px;
             border-radius: 5px;
             float: left;
+            height: 150px;
+            box-shadow: 1px 2px 3px gray;
         }
         .clearfix {
             clear: both;
         }
         .reference {
-          text-align: center;
+            text-align: center;
         }
         .reference ul {
             list-style: none;
