@@ -2,3 +2,5 @@
 out/
 lib/
 web/WEB-INF/classes/
+*.ipr
+*.iws
